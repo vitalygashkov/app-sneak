@@ -9,7 +9,7 @@ const adapter = (post) => {
   const shouldAddPost = hasAppLink(post.description);
   if (!shouldAddPost) return null;
   const description = post.description.toLocaleLowerCase();
-  const title = description.includes('инвестиции') ? 'Т-Инвестиции' : 'Т-Банк';
+  const title = description.includes('инвестици') ? 'Т-Инвестиции' : 'Т-Банк';
   const link = post.description.split('href="')[1]?.split('"')[0];
   return { ...post, title, link };
 };
