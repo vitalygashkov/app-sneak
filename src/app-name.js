@@ -17,6 +17,9 @@ export const parseAppName = (text) => {
     return 'Халва – Совкомбанк';
   }
 
+  if (match(['сбер', 'kids'])) {
+    return 'СберKids';
+  }
   if (match(['сбер', 'мобайл'])) {
     return 'СберМобайл';
   }
