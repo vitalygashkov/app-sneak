@@ -35,13 +35,13 @@
   "dependencies": {
     "@grammyjs/chat-members": "^1.2.0",
     "@grammyjs/storage-free": "^2.5.1",
-    "@xmldom/xmldom": "^0.9.8",
-    "grammy": "^1.39.3",
-    "impit": "^0.5.4"
+    "@xmldom/xmldom": "^0.9.10",
+    "grammy": "^1.42.0",
+    "impit": "^0.13.0"
   },
   "devDependencies": {
     "@flydotio/dockerfile": "^0.7.10",
-    "@types/node": "^25.2.0",
-    "vitest": "^4.0.18"
+    "@types/node": "^25.6.0",
+    "vitest": "^4.1.4"
   }
 }
