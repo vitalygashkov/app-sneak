@@ -5,8 +5,8 @@
   "type": "module",
   "main": "app-sneak.js",
   "scripts": {
-    "dev": "node --env-file=.env.local app-sneak.js",
-    "start": "node app-sneak.js",
+    "dev": "node --env-file-if-exists=.env.local app-sneak.js",
+    "start": "node --env-file-if-exists=.env.local app-sneak.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "deploy": "flyctl deploy"
   },
